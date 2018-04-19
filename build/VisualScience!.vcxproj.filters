@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{ad022b3c-b3e0-4d0f-b314-c5d6125cff5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{81fcaf16-2978-4f42-a976-7fa24d0b701e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="kalman">
+      <UniqueIdentifier>{007136d9-e0a8-4f84-9841-23ed6ffa348d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tracker">
+      <UniqueIdentifier>{5b6cc3f8-48d4-4b2c-bb9b-f6c4cd2f733d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{1952eb62-38c5-4ba8-af13-58eb49ed8d84}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\renderer\lodepng.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderer\pointcloud.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderer\quad.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderer\renderer.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderer\shader.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderer\space.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderer\texture.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderer\window.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\loader_obj_nogl.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\renderer\loader_obj.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\util\random.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tracker\TrackerSystem.cpp">
+      <Filter>tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tracker\TrackerSystemInputHandler.cpp">
+      <Filter>tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kalman\kalman-pos-acc-2d.cpp">
+      <Filter>kalman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kalman\kalman-pos-3d.cpp">
+      <Filter>kalman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\kalman\kalman-pos-acc-3d.cpp">
+      <Filter>kalman</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tracker\TrackerSystem_simulate.cpp">
+      <Filter>tracker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\util\loader_obj_nogl.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\math.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\timer.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\loader_obj.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\lodepng.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\pointcloud.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\quad.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\renderer.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\shader.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\space.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\texture.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\renderer\window.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\util\random.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracker\Sensor.h">
+      <Filter>tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracker\TrackerSystem.h">
+      <Filter>tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracker\TrackerSystemInputHandler.h">
+      <Filter>tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracker\SimulatedWorldObject.h">
+      <Filter>tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracker\Graph.h">
+      <Filter>tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\kalman\kalman-pos-acc-2d.hpp">
+      <Filter>kalman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracker\DeadReckoningPosAcc.h">
+      <Filter>tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tracker\Analysis.h">
+      <Filter>tracker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\kalman\kalman-pos-3d.hpp">
+      <Filter>kalman</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\kalman\kalman-pos-acc-3d.hpp">
+      <Filter>kalman</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\shaders\pointcloud.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\src\shaders\quad.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
